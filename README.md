@@ -13,8 +13,12 @@ Usage:
 This is how the module can be used in your environment:
 
 module “convention”
+
 source = https://github.com/sosocookeygam/
+
 domain = “ ”
+
 service_name = “ ”
+
 environment = “ ”
 
