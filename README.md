@@ -13,15 +13,15 @@ pbp - Required: Is a fixed value that must be at the start. This is to indicate 
 
 Usage:
 
-This is how the module can be used in your environment:
+This is an example of how the module can be used in your environment:
 
 module “convention”
 
 source = https://github.com/sosocookeygam/
 
-domain = “ ”
+domain = “data ”
 
-service_name = “ ”
+service_name = “EC2 ”
 
-environment = “ ”
+environment = “production”
 
