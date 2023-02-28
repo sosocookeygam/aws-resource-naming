@@ -17,7 +17,7 @@ This is an example of how the module can be used in your environment:
 
 module “convention”
 
-source = https://github.com/sosocookeygam/
+source = "github.com/sosocookeygam/aws-resource-naming"
 
 domain = “data ”
 
