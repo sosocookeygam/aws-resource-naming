@@ -4,8 +4,11 @@ This module was created to help our organization enforce strict naming of resour
 Prerequisite:
 
 pbp - Required: Is a fixed value that must be at the start. This is to indicate that the resource was deployed by the org. 
+
 {domain} - Required: Must be from one of the following accepted values from the list of domains (reporting|data|platform|fron tend|backend) 
+
 {service_name} - Optional: Alphanumeric and with no spaces; when service name is not provided, a random string (length 8) is created 
+
 {environment} - Optional: Must be from one of the following accepted values development and production
 
 Usage:
